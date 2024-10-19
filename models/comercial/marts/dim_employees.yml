@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: dim_employees
+    description: Dimensão estruturada da tabela de employees
+    columns:
+      - name: PK_EMPLOYEE
+        description: descricao_tabela
+
+      - name: FK_MANAGER
+        description: descricao_tabela
+
+      - name: EMPLOYEE_NAME
+        description: descricao_tabela
+
+      - name: MANAGER_NAME
+        description: descricao_tabela
+
+      - name: EMPLOYEE_POSITION
+        description: descricao_tabela
+
+      - name: DT_BIRTHDATE_EMPLOYEE
+        description: descricao_tabela
+
+      - name: DT_HIREDATE
+        description: descricao_tabela
+
+      - name: CITY_EMPLOYEE
+        description: descricao_tabela
+
+      - name: REGION_EMPLOYEE
+        description: descricao_tabela
+        
+      - name: COUNTRY_EMPLOYEE
+        description: descricao_tabela
