@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: int_orders_metrics
+    description: Tabela intermediária com as métricas da Northwind
+    columns:
+      - name: pk_order_item
+        description: descricao_tabela
+        data_tests:
+          - unique
+          - not_null
