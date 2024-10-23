@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: int_products_enriched
+    description: Tabela intermediária para enriquecer os dados da dimensão produtos
+    columns:
+      - name: PK_PRODUCTS
+        description: descricao_tabela
+        data_tests:
+          - unique
+          - not_null

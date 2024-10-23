@@ -1,2 +1,8 @@
+with
+    int_employees as (
+        select *
+        from {{ ref('int_employees_selfjoin') }}
+    )
+
 select *
-from {{ ref('int_employees_selfjoin') }}
+from int_employees

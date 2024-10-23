@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_erp_order_items
+    description: Tabela de preparação dos dados brutos da tabela de order_details
+    columns:
+      - name: pk_order_item
+        description: blabla
+        data_tests:
+          - unique
+          - not_null
